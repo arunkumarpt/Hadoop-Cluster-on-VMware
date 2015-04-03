@@ -34,4 +34,27 @@ HWADDR=
 Property change the IPs and reboot the cloned machines. 
 
 
+# On Each machine
+adduser arun
+passwd arun
+visudo
+root    ALL=(ALL)       ALL
+arun    ALL=(ALL)       ALL
+
+passwd root
+
+vi /etc/ssh/sshd_config
+
+PermitRootLogin no
+
+
+Disable the IP Tables, so that the daemons on remote machines can talk to ports on the system
+
+sudo service iptables stop
+
+sudo chkconfig iptables off
+Disable SELinux
+sudo /usr/sbin/setenforce 0
+
+sudo sed -i.old s/SELINUX=enforcing/SELINUX=disabled/ /etc/selinux/config
 
