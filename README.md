@@ -124,3 +124,34 @@ arun    ALL=(ALL)      NOPASSWD: ALL
 
 
 
+Version Summary
+Group 1 (CDH4)
+Hosts
+worker1.akcl.com, worker2.akcl.com, worker3.akcl.com, worker4.akcl.com
+Component	Version	Release	CDH Version
+Impala	2.1.0	1.impala2.0.0.p0.15	Not applicable
+Lily HBase Indexer (CDH4 only)	1.3+26	1.cdh4.5.0.p0.14	Not applicable
+Solr (CDH4 only)	4.4.0+181	1.cdh4.5.0.p0.14	Not applicable
+Flume NG	1.4.0+103	1.cdh4.7.1.p0.6	CDH4
+MapReduce 1 (CDH4 only)	2.0.0+1612	1.cdh4.7.1.p0.12	CDH4
+HDFS (CDH4 only)	2.0.0+1612	1.cdh4.7.1.p0.12	CDH4
+HttpFS (CDH4 only)	2.0.0+1612	1.cdh4.7.1.p0.12	CDH4
+MapReduce 2 (CDH4 only)	2.0.0+1612	1.cdh4.7.1.p0.12	CDH4
+Yarn (CDH4 only)	2.0.0+1612	1.cdh4.7.1.p0.12	CDH4
+Hadoop	2.0.0+1612	1.cdh4.7.1.p0.12	CDH4
+HBase	0.94.15+119	1.cdh4.7.1.p0.10	CDH4
+HCatalog (CDH4 only)	0.5.0+16	1.cdh4.7.1.p0.9	CDH4
+Hive	0.10.0+263	1.cdh4.7.1.p0.10	CDH4
+Mahout	0.7+18	1.cdh4.7.1.p0.9	CDH4
+Oozie	3.3.2+108	1.cdh4.7.1.p0.7	CDH4
+label.cdhVersionTable.parquet	1.2.5	1.cdh4.7.1.p0.9	CDH4
+Pig	0.11.0+46	1.cdh4.7.1.p0.10	CDH4
+Sqoop	1.4.3+97	1.cdh4.7.1.p0.7	CDH4
+Sqoop2 (CDH4 only)	1.99.2+102	1.cdh4.7.1.p0.10	CDH4
+Whirr	0.8.2+18	1.cdh4.7.1.p0.6	CDH4
+Zookeeper	3.4.5+28	1.cdh4.7.1.p0.13	CDH4
+Hue	2.5.0+244	1.cdh4.7.1.p0.7	CDH4
+Java	java version "1.6.0_31" Java(TM) SE Runtime Environment (build 1.6.0_31-b04) Java HotSpot(TM) 64-Bit Server VM (build 20.6-b01, mixed mode)	Unavailable	Not applicable
+Cloudera Manager Agent	4.8.5	1.cm485.p0.160.el6	Not applicable
+
+
