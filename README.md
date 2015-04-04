@@ -155,3 +155,24 @@ Java	java version "1.6.0_31" Java(TM) SE Runtime Environment (build 1.6.0_31-b04
 Cloudera Manager Agent	4.8.5	1.cm485.p0.160.el6	Not applicable
 
 
+
+Monitors
+
+Activity Monitors
+Alert Publisher
+Server Master
+Host Monitor
+Report Manager
+
+beeline...hive server -> metastore
+navigate audit server -> All queries will be noted down
+
+
+issues while migration
+
+1. commands table was huge ... timing out while copying...huge cluster
+2. pre req for hbase...hfile 2 (cdh 5 will not support hfile2)
+ 
+
+
+
