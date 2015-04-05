@@ -67,6 +67,7 @@ sudo vi /etc/hosts
 10.0.0.102 worker2.akcl.com worker2
 10.0.0.103 worker3.akcl.com  worker3
 10.0.0.104 worker4.akcl.com  worker4
+10.0.0.110 installer.akcl.com installer
 
 
 
@@ -173,6 +174,18 @@ issues while migration
 1. commands table was huge ... timing out while copying...huge cluster
 2. pre req for hbase...hfile 2 (cdh 5 will not support hfile2)
  
+
+
+How to remove cloudera manager and its componets
+
+Run the following commands in each nodes
+
+service cloudera-manager-agent stop
+yum remove cloudera-manager-agent
+sudo rm -Rf /usr/share/cmf /var/lib/cloudera* /var/cache/yum/cloudera* /var/log/cloudera* /var/run/cloudera*
+sudo rm -Rf /var/lib/flume-ng /var/lib/hadoop* /var/lib/hue /var/lib/oozie /var/lib/solr /var/lib/sqoop*
+sudo rm /tmp/.scm_prepare_node.lock
+sudo rm -Rf /dfs /mapred /yarn
 
 
 
