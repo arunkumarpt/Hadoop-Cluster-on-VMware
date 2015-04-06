@@ -189,6 +189,8 @@ sudo rm -Rf /dfs /mapred /yarn
 
 
 sdf
+Java Heap Size of Host Monitor - 256 mb
 
+Java Heap Size of Host Monitor
 
 
