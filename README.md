@@ -188,4 +188,7 @@ sudo rm /tmp/.scm_prepare_node.lock
 sudo rm -Rf /dfs /mapred /yarn
 
 
+sdf
+
+
 
